@@ -3,8 +3,8 @@ Repo for the First Charge car, meant to include the electrical schematics and ki
 
 # Brief Github Command Tutorial for the Team by Kevin Sui
 # To connect git with github website
-  (1) $ ssh-keygen -t ed25519 -C "<insert your email here @gmail.com>"
-  (2) When asked to "Enter file in which to save the key:" Press Enter for default
+  (1) $ ssh-keygen -t ed25519 -C "<insert your email here @gmail.com>" <br />
+  (2) When asked to "Enter file in which to save the key:" Press Enter for default <br />
   (3) Add Passphrase to the ssh key if you give enough shits, else press enter for no passphrase
   (4) A ed25519 key randomart image is printed out. Look above and find location of public key "Your public key has been saved in /c/Users/racin/....." Go to that location $cd /c/Users/racin/...
   (5) To quickly see public key $ cat id_ed25519.pub 
